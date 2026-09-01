@@ -1,2 +1,10 @@
 # 4-bit-ALU-design
 Designing a 4bit ALU that can perform addition, subtraction, AND,OR,XOR and NOT operation.
+
+Design specification:
+INPUTS:
+A : 4bit , wire data type
+B : 4bit , wire data type
+alu_sel : 3 bit; As there are 6 operations to be done, we need a selection input or opcode, this input will be used for that!
+res : 4bit output, reg data type(as this will be used in always block)
+cout : 1 bit, To hold the carry bit during overflow 
